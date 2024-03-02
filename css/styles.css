@@ -63,6 +63,10 @@ button {
   color: currentColor;
 }
 
+input {
+  font-family: inherit;
+}
+
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
@@ -557,6 +561,9 @@ address {
   margin-right: 120px;
 }
 
+.mid-content {
+  margin-right: auto;
+}
 .mid-content__description {
   font-weight: 500;
   font-size: 16px;
@@ -598,4 +605,56 @@ address {
 
 .mid-list__icon {
   fill: var(--cloud);
+}
+
+.side-right-content__title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 16px;
+  color: var(--white);
+}
+
+.form-subscribe__input {
+  width: 264px;
+  height: 40px;
+
+  margin-right: 24px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+
+  padding: 8px 16px;
+}
+
+.form-subscribe__input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.form-subscribe__btn {
+  display: inline-flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  padding: 8px 24px 8px 24px;
+
+  background-color: var(--iris);
+  border-radius: 4px;
+  border-color: transparent;
+  border-width: 0;
+}
+
+.form-subscribe__icon {
+  fill: var(--white);
+  margin-left: 16px;
 }
