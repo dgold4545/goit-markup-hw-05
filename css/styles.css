@@ -656,7 +656,7 @@ address {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  padding: 8px 24px 8px 24px;
+  
   border: none;
   background-color: var(--iris);
   border-radius: 4px;
