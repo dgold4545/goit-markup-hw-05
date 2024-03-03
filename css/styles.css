@@ -866,12 +866,16 @@ address {
   cursor: pointer;
   margin-right: 8px;
   background-color: var(--cloud);
+  fill: transparent;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form__checkbox:checked
   + .modal-form__label--appere
   .review-form-own-checkbox {
   background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .modal-form__checkbox:focus
